@@ -12,6 +12,10 @@
 		85E7AEC025F0E095009A98C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7AEBF25F0E095009A98C2 /* Assets.xcassets */; };
 		85E7AEC325F0E095009A98C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7AEC225F0E095009A98C2 /* Preview Assets.xcassets */; };
 		85EB220225F0EC7500CEA9BD /* MyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220125F0EC7500CEA9BD /* MyComponent.swift */; };
+		85EB220925F11C3D00CEA9BD /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220825F11C3D00CEA9BD /* Squad.swift */; };
+		85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220C25F11C6100CEA9BD /* ModelData.swift */; };
+		85EB221025F11D4400CEA9BD /* squadsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 85EB220F25F11D4400CEA9BD /* squadsData.json */; };
+		85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221225F11DF000CEA9BD /* SquadsList.swift */; };
 		B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4388E25F0F9060001BB28 /* AboutView.swift */; };
 		B3F4389225F0FBE60001BB28 /* SquadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389125F0FBE60001BB28 /* SquadsView.swift */; };
 		B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389425F0FC8C0001BB28 /* ClientsView.swift */; };
@@ -25,6 +29,10 @@
 		85E7AEC225F0E095009A98C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85E7AEC425F0E095009A98C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EB220125F0EC7500CEA9BD /* MyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComponent.swift; sourceTree = "<group>"; };
+		85EB220825F11C3D00CEA9BD /* Squad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squad.swift; sourceTree = "<group>"; };
+		85EB220C25F11C6100CEA9BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		85EB220F25F11D4400CEA9BD /* squadsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = squadsData.json; sourceTree = "<group>"; };
+		85EB221225F11DF000CEA9BD /* SquadsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsList.swift; sourceTree = "<group>"; };
 		B3F4388E25F0F9060001BB28 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B3F4389125F0FBE60001BB28 /* SquadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsView.swift; sourceTree = "<group>"; };
 		B3F4389425F0FC8C0001BB28 /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
@@ -60,6 +68,8 @@
 		85E7AEBA25F0E092009A98C2 /* somerville-hack */ = {
 			isa = PBXGroup;
 			children = (
+				85EB220725F11C2400CEA9BD /* resources */,
+				85EB220625F11C0E00CEA9BD /* models */,
 				B3F4388C25F0F5460001BB28 /* views */,
 				85EB220025F0EC6000CEA9BD /* components */,
 				85E7AEBB25F0E092009A98C2 /* somerville_hackApp.swift */,
@@ -83,8 +93,26 @@
 			isa = PBXGroup;
 			children = (
 				85EB220125F0EC7500CEA9BD /* MyComponent.swift */,
+				85EB221225F11DF000CEA9BD /* SquadsList.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		85EB220625F11C0E00CEA9BD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				85EB220825F11C3D00CEA9BD /* Squad.swift */,
+				85EB220C25F11C6100CEA9BD /* ModelData.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		85EB220725F11C2400CEA9BD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				85EB220F25F11D4400CEA9BD /* squadsData.json */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		B3F4388C25F0F5460001BB28 /* views */ = {
@@ -154,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EB221025F11D4400CEA9BD /* squadsData.json in Resources */,
 				85E7AEC325F0E095009A98C2 /* Preview Assets.xcassets in Resources */,
 				85E7AEC025F0E095009A98C2 /* Assets.xcassets in Resources */,
 			);
@@ -170,7 +199,10 @@
 				B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */,
 				85E7AEBE25F0E092009A98C2 /* ContentView.swift in Sources */,
 				85E7AEBC25F0E092009A98C2 /* somerville_hackApp.swift in Sources */,
+				85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */,
 				85EB220225F0EC7500CEA9BD /* MyComponent.swift in Sources */,
+				85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */,
+				85EB220925F11C3D00CEA9BD /* Squad.swift in Sources */,
 				B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

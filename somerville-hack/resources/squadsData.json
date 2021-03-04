@@ -1,0 +1,27 @@
+[
+    {
+        "id": "001",
+        "name": "Proteus",
+        "description": "This is the best squad in Somerville"
+    },
+    {
+        "id": "002",
+        "name": "Atlas",
+        "description": "This is the best squad in Somerville"
+    },
+    {
+        "id": "003",
+        "name": "Perigee",
+        "description": "This is the best squad in Somerville"
+    },
+    {
+        "id": "004",
+        "name": "Lyra",
+        "description": "This is the best squad in Somerville"
+    },
+    {
+        "id": "005",
+        "name": "Pathfinder",
+        "description": "This is the best squad in Somerville"
+    }
+]
