@@ -11,13 +11,15 @@ struct SquadsList: View {
     var title: String = "Squads"
     var squads: [Squad]
     var body: some View {
-        VStack {
-            Text(title)
+        NavigationView {
             List(squads, id: \.id) { squad in
-                Text(squad.name)
+                NavigationLink(
+                    destination: SquadDetail()) {
+                    Text(squad.name)
+                }
             }
+            .navigationTitle(title)
         }
-        
     }
 }
 

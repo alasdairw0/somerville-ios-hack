@@ -19,6 +19,7 @@
 		B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4388E25F0F9060001BB28 /* AboutView.swift */; };
 		B3F4389225F0FBE60001BB28 /* SquadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389125F0FBE60001BB28 /* SquadsView.swift */; };
 		B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389425F0FC8C0001BB28 /* ClientsView.swift */; };
+		B3F4389925F129200001BB28 /* SquadDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389825F129200001BB28 /* SquadDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B3F4388E25F0F9060001BB28 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B3F4389125F0FBE60001BB28 /* SquadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsView.swift; sourceTree = "<group>"; };
 		B3F4389425F0FC8C0001BB28 /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
+		B3F4389825F129200001BB28 /* SquadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				B3F4388E25F0F9060001BB28 /* AboutView.swift */,
 				B3F4389125F0FBE60001BB28 /* SquadsView.swift */,
 				B3F4389425F0FC8C0001BB28 /* ClientsView.swift */,
+				B3F4389825F129200001BB28 /* SquadDetail.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */,
 				85EB220225F0EC7500CEA9BD /* MyComponent.swift in Sources */,
 				85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */,
+				B3F4389925F129200001BB28 /* SquadDetail.swift in Sources */,
 				85EB220925F11C3D00CEA9BD /* Squad.swift in Sources */,
 				B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */,
 			);

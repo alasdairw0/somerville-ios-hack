@@ -9,7 +9,6 @@ import Foundation
 
 var squadsList: [Squad] = load("squadsData.json")
 
-
 func load<T: Decodable>(_ filename: String) -> T {
     print("loading")
     let data: Data
