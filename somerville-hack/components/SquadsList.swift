@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct SquadsList: View {
-    var title: String
-//    var squad: Squad
+    var title: String = "Squads"
+    var squads: [Squad]
     var body: some View {
         VStack {
             Text(title)
-//            Text(squad.name)
-//            List(squads, id: \.id) { squad in
-//                Text(squad.name)
-//            }
+            List(squads, id: \.id) { squad in
+                Text(squad.name)
+            }
         }
         
     }
@@ -25,6 +24,6 @@ struct SquadsList: View {
 
 struct SquadsList_Previews: PreviewProvider {
     static var previews: some View {
-        SquadsList(title: "Overrioded title")
+        SquadsList(squads: squadsList)
     }
 }

@@ -25,6 +25,7 @@ struct ContentView: View {
             Button("Clients page") {
                 showingSheet.toggle()
             }
+            Text(squadsList[0].name)
             
             Spacer()
             
