@@ -7,14 +7,19 @@
 
 import SwiftUI
 
-struct ClientsView: View {
+struct ClientView: View {
+    var clients: [Client]
+    
     var body: some View {
-        Text("Clients page")
+        NavigationView {
+            Text("Clients page")
+                .navigationTitle("Our Clients")
+        }
     }
 }
 
 struct ClientsView_Previews: PreviewProvider {
     static var previews: some View {
-        ClientsView()
+        ClientView(clients: clientsList)
     }
 }

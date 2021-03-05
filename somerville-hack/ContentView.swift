@@ -27,8 +27,12 @@ struct ContentView: View {
                     Button("Learn more") {
                         showingAbout.toggle()
                     }.padding(.trailing).padding(.bottom)
+                    
                     SquadsList(squads: squadsList)
-                    Spacer()
+
+                    ClientRow(clients: clientsList)
+                    
+                    Spacer()        
         
                     .sheet(isPresented: $showingAbout) {
                         AboutView()
