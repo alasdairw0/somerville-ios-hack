@@ -8,25 +8,30 @@
 import SwiftUI
 
 struct SquadsList: View {
+    
     var title: String = "Squads"
     var squads: [Squad]
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title)
-                .font(.title2)
-                .padding(.horizontal, 20)
-            List(squads, id: \.id) { squad in
-                NavigationLink(
-                    destination: SquadDetail()) {
-                    Text(squad.name)
-                }
+            Text(title).font(.title2).padding(.horizontal)
+            ScrollView(.horizontal) {
+                HStack {
+                    ForEach(0 ..< squads.count) { index in
+                        NavigationLink(
+                            destination: SquadDetail()) {
+                            Image(squads[index].name)
+                                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                        }
+                    }
+                }.padding()
             }
-            .listStyle(InsetListStyle())
         }
-        
-        
     }
 }
+
+
+
 
 
 struct SquadsList_Previews: PreviewProvider {

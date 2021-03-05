@@ -7,28 +7,38 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-    @State private var showingSheet = false
+    @State private var showingAbout = false
     
     var body: some View {
         NavigationView {
-            VStack {
-                Button("About page") {
-                    showingSheet.toggle()
+            ZStack {
+                VStack {
+                    Image("Edinburgh")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .edgesIgnoringSafeArea(.all)
+                    Spacer()
                 }
-                Spacer()
+                
+                VStack(alignment: .trailing) {
+                    Text("Welcome to Club Somerville, where you will learn everything that makes Somerville awesome. Hundred percent best club going by far. ").padding(.horizontal)
+                    Button("Learn more") {
+                        showingAbout.toggle()
+                    }.padding(.trailing).padding(.bottom)
+                    SquadsList(squads: squadsList)
+                    Spacer()
         
-                SquadsList(squads: squadsList)
-                .navigationTitle("Club Somerville")
+                    .sheet(isPresented: $showingAbout) {
+                        AboutView()
+                    }
+                    .navigationTitle("Club Somerville")
+                }.padding(.top, 150)
             }
-            
         }
-        
-        .sheet(isPresented: $showingSheet) {
-            
-        }
-        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

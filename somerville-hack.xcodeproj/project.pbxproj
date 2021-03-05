@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85531CD925F234A700969D6E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85531CD825F234A700969D6E /* Address.swift */; };
 		85E7AEBC25F0E092009A98C2 /* somerville_hackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7AEBB25F0E092009A98C2 /* somerville_hackApp.swift */; };
 		85E7AEBE25F0E092009A98C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7AEBD25F0E092009A98C2 /* ContentView.swift */; };
 		85E7AEC025F0E095009A98C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7AEBF25F0E095009A98C2 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220C25F11C6100CEA9BD /* ModelData.swift */; };
 		85EB221025F11D4400CEA9BD /* squadsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 85EB220F25F11D4400CEA9BD /* squadsData.json */; };
 		85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221225F11DF000CEA9BD /* SquadsList.swift */; };
+		85EB221725F132F300CEA9BD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221625F132F300CEA9BD /* CircleImage.swift */; };
+		85EB221A25F1344900CEA9BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221925F1344900CEA9BD /* MapView.swift */; };
 		B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4388E25F0F9060001BB28 /* AboutView.swift */; };
 		B3F4389225F0FBE60001BB28 /* SquadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389125F0FBE60001BB28 /* SquadsView.swift */; };
 		B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389425F0FC8C0001BB28 /* ClientsView.swift */; };
@@ -23,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85531CD825F234A700969D6E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		85E7AEB825F0E092009A98C2 /* somerville-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "somerville-hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E7AEBB25F0E092009A98C2 /* somerville_hackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somerville_hackApp.swift; sourceTree = "<group>"; };
 		85E7AEBD25F0E092009A98C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		85EB220C25F11C6100CEA9BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		85EB220F25F11D4400CEA9BD /* squadsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = squadsData.json; sourceTree = "<group>"; };
 		85EB221225F11DF000CEA9BD /* SquadsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsList.swift; sourceTree = "<group>"; };
+		85EB221625F132F300CEA9BD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		85EB221925F1344900CEA9BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B3F4388E25F0F9060001BB28 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B3F4389125F0FBE60001BB28 /* SquadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadsView.swift; sourceTree = "<group>"; };
 		B3F4389425F0FC8C0001BB28 /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				85EB220125F0EC7500CEA9BD /* MyComponent.swift */,
 				85EB221225F11DF000CEA9BD /* SquadsList.swift */,
+				85EB221625F132F300CEA9BD /* CircleImage.swift */,
+				85EB221925F1344900CEA9BD /* MapView.swift */,
+				85531CD825F234A700969D6E /* Address.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -199,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F4389225F0FBE60001BB28 /* SquadsView.swift in Sources */,
+				85EB221A25F1344900CEA9BD /* MapView.swift in Sources */,
+				85531CD925F234A700969D6E /* Address.swift in Sources */,
 				B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */,
 				85E7AEBE25F0E092009A98C2 /* ContentView.swift in Sources */,
 				85E7AEBC25F0E092009A98C2 /* somerville_hackApp.swift in Sources */,
@@ -206,6 +217,7 @@
 				85EB220225F0EC7500CEA9BD /* MyComponent.swift in Sources */,
 				85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */,
 				B3F4389925F129200001BB28 /* SquadDetail.swift in Sources */,
+				85EB221725F132F300CEA9BD /* CircleImage.swift in Sources */,
 				85EB220925F11C3D00CEA9BD /* Squad.swift in Sources */,
 				B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */,
 			);
