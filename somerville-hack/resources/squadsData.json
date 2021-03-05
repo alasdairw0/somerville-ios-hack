@@ -2,26 +2,42 @@
     {
         "id": 1001,
         "name": "Proteus",
-        "description": "This is the best squad in Somerville"
+        "description": "This is the best squad in Somerville",
+        "about": "Sed arcu sem, convallis sed rutrum ac, interdum nec nisi. Ut risus odio, feugiat sodales sagittis sit amet, eleifend vel justo. Quisque euismod pellentesque diam, ut posuere mauris lacinia mattis. Sed vulputate mi sed lorem consequat, imperdiet tristique elit accumsan. Maecenas ullamcorper eget lacus ut ullamcorper. Nunc arcu dolor, pellentesque a felis suscipit, vestibulum faucibus sapien. Etiam dignissim faucibus nibh in porttitor. Proin gravida dignissim nunc.",
+        "members": [
+            {
+                "id": 2001,
+                "name": "Joe Shambrook",
+                "imageUrl": "https://ca.slack-edge.com/TTFPQ49FU-UV5A4TFN2-437bd29c09e0-512"
+            }
+        ]
     },
     {
         "id": 1002,
         "name": "Atlas",
-        "description": "This is the best squad in Somerville"
+        "description": "This is the best squad in Somerville",
+        "about": "Sed arcu sem, convallis sed rutrum ac, interdum nec nisi. Ut risus odio, feugiat sodales sagittis sit amet, eleifend vel justo. Quisque euismod pellentesque diam, ut posuere mauris lacinia mattis. Sed vulputate mi sed lorem consequat, imperdiet tristique elit accumsan. Maecenas ullamcorper eget lacus ut ullamcorper. Nunc arcu dolor, pellentesque a felis suscipit, vestibulum faucibus sapien. Etiam dignissim faucibus nibh in porttitor. Proin gravida dignissim nunc.",
+        "members": []
     },
     {
         "id": 1003,
         "name": "Perigee",
-        "description": "This is the best squad in Somerville"
+        "description": "This is the best squad in Somerville",
+        "about": "Sed arcu sem, convallis sed rutrum ac, interdum nec nisi. Ut risus odio, feugiat sodales sagittis sit amet, eleifend vel justo. Quisque euismod pellentesque diam, ut posuere mauris lacinia mattis. Sed vulputate mi sed lorem consequat, imperdiet tristique elit accumsan. Maecenas ullamcorper eget lacus ut ullamcorper. Nunc arcu dolor, pellentesque a felis suscipit, vestibulum faucibus sapien. Etiam dignissim faucibus nibh in porttitor. Proin gravida dignissim nunc.",
+        "members": []
     },
     {
         "id": 1004,
         "name": "Lyra",
-        "description": "This is the best squad in Somerville"
+        "description": "This is the best squad in Somerville",
+        "about": "Sed arcu sem, convallis sed rutrum ac, interdum nec nisi. Ut risus odio, feugiat sodales sagittis sit amet, eleifend vel justo. Quisque euismod pellentesque diam, ut posuere mauris lacinia mattis. Sed vulputate mi sed lorem consequat, imperdiet tristique elit accumsan. Maecenas ullamcorper eget lacus ut ullamcorper. Nunc arcu dolor, pellentesque a felis suscipit, vestibulum faucibus sapien. Etiam dignissim faucibus nibh in porttitor. Proin gravida dignissim nunc.",
+        "members": []
     },
     {
         "id": 1005,
         "name": "Pathfinder",
-        "description": "This is the best squad in Somerville"
+        "description": "This is the best squad in Somerville",
+        "about": "Sed arcu sem, convallis sed rutrum ac, interdum nec nisi. Ut risus odio, feugiat sodales sagittis sit amet, eleifend vel justo. Quisque euismod pellentesque diam, ut posuere mauris lacinia mattis. Sed vulputate mi sed lorem consequat, imperdiet tristique elit accumsan. Maecenas ullamcorper eget lacus ut ullamcorper. Nunc arcu dolor, pellentesque a felis suscipit, vestibulum faucibus sapien. Etiam dignissim faucibus nibh in porttitor. Proin gravida dignissim nunc.",
+        "members": []
     }
 ]

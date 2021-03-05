@@ -19,7 +19,7 @@ struct SquadsList: View {
                 HStack {
                     ForEach(0 ..< squads.count) { index in
                         NavigationLink(
-                            destination: SquadDetail()) {
+                            destination: SquadDetail(squad: squads[index])) {
                             Image(squads[index].name)
                                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                         }

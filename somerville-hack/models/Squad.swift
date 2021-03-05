@@ -11,4 +11,13 @@ struct Squad: Hashable, Codable {
     var id: Int
     var name: String
     var description: String
+    var about: String
+    var members: [Andi]
+    
+    struct Andi: Hashable, Codable {
+        var id: Int
+        var name: String
+        var imageUrl: String
+    }
 }
+
