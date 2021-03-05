@@ -30,7 +30,7 @@ struct ClientView: View {
     }
 }
 
-struct ClientView_Previews: PreviewProvider {
+struct ClientsView_Previews: PreviewProvider {
     static var previews: some View {
         ClientView(
             name: clientsList[0].name,

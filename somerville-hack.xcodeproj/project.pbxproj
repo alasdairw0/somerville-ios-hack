@@ -12,27 +12,25 @@
 		85E7AEBE25F0E092009A98C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7AEBD25F0E092009A98C2 /* ContentView.swift */; };
 		85E7AEC025F0E095009A98C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7AEBF25F0E095009A98C2 /* Assets.xcassets */; };
 		85E7AEC325F0E095009A98C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7AEC225F0E095009A98C2 /* Preview Assets.xcassets */; };
-		85EB220925F11C3D00CEA9BD /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220825F11C3D00CEA9BD /* Squad.swift */; };
 		85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220C25F11C6100CEA9BD /* ModelData.swift */; };
 		85EB221025F11D4400CEA9BD /* squadsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 85EB220F25F11D4400CEA9BD /* squadsData.json */; };
 		85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221225F11DF000CEA9BD /* SquadsList.swift */; };
 		85EB221725F132F300CEA9BD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221625F132F300CEA9BD /* CircleImage.swift */; };
 		85EB221A25F1344900CEA9BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB221925F1344900CEA9BD /* MapView.swift */; };
 		B3F4388F25F0F9060001BB28 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4388E25F0F9060001BB28 /* AboutView.swift */; };
-		B3F4389525F0FC8C0001BB28 /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389425F0FC8C0001BB28 /* ClientsView.swift */; };
-		B3F4389225F0FBE60001BB28 /* SquadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389125F0FBE60001BB28 /* SquadsView.swift */; };
-		B3F4389525F0FC8C0001BB28 /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389425F0FC8C0001BB28 /* ClientView.swift */; };
 		B3F4389925F129200001BB28 /* SquadDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389825F129200001BB28 /* SquadDetail.swift */; };
 		B3F4389C25F135F60001BB28 /* clients.json in Resources */ = {isa = PBXBuildFile; fileRef = B3F4389B25F135F60001BB28 /* clients.json */; };
 		B3F4389F25F137790001BB28 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4389E25F137790001BB28 /* Client.swift */; };
 		B3F438A225F138B90001BB28 /* ClientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F438A125F138B90001BB28 /* ClientRow.swift */; };
 		B3F438AA25F13DF30001BB28 /* ClientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F438A925F13DF30001BB28 /* ClientButton.swift */; };
 		B3F438B625F2804E0001BB28 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F438B525F2804E0001BB28 /* Tag.swift */; };
+		B3F438BE25F2981C0001BB28 /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB220825F11C3D00CEA9BD /* Squad.swift */; };
+		B3F438C125F2994B0001BB28 /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F438C025F2994B0001BB28 /* ClientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85531CD825F234A700969D6E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
-		85E7AEB825F0E092009A98C2 /* somerville-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "somerville-hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E7AEB825F0E092009A98C2 /* somerville-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "somerville-hack.app"; path = "/Users/josephshambrook/dev/somerville-ios-hack/build/Debug-iphoneos/somerville-hack.app"; sourceTree = "<absolute>"; };
 		85E7AEBB25F0E092009A98C2 /* somerville_hackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somerville_hackApp.swift; sourceTree = "<group>"; };
 		85E7AEBD25F0E092009A98C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85E7AEBF25F0E095009A98C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,13 +43,13 @@
 		85EB221625F132F300CEA9BD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		85EB221925F1344900CEA9BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B3F4388E25F0F9060001BB28 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		B3F4389425F0FC8C0001BB28 /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
 		B3F4389825F129200001BB28 /* SquadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadDetail.swift; sourceTree = "<group>"; };
-		B3F4389B25F135F60001BB28 /* clients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clients.json; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		B3F4389B25F135F60001BB28 /* clients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = clients.json; path = "somerville-hack/resources/clients.json"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		B3F4389E25F137790001BB28 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		B3F438A125F138B90001BB28 /* ClientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRow.swift; sourceTree = "<group>"; };
 		B3F438A925F13DF30001BB28 /* ClientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientButton.swift; sourceTree = "<group>"; };
 		B3F438B525F2804E0001BB28 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		B3F438C025F2994B0001BB28 /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				85E7AEBA25F0E092009A98C2 /* somerville-hack */,
-				85E7AEB925F0E092009A98C2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		85E7AEB925F0E092009A98C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				85E7AEB825F0E092009A98C2 /* somerville-hack.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		85E7AEBA25F0E092009A98C2 /* somerville-hack */ = {
@@ -108,10 +97,13 @@
 		85EB220025F0EC6000CEA9BD /* components */ = {
 			isa = PBXGroup;
 			children = (
-				85EB221225F11DF000CEA9BD /* SquadsList.swift */,
-				85EB221625F132F300CEA9BD /* CircleImage.swift */,
-				85EB221925F1344900CEA9BD /* MapView.swift */,
 				85531CD825F234A700969D6E /* Address.swift */,
+				85EB221625F132F300CEA9BD /* CircleImage.swift */,
+				B3F438A925F13DF30001BB28 /* ClientButton.swift */,
+				B3F438A125F138B90001BB28 /* ClientRow.swift */,
+				85EB221925F1344900CEA9BD /* MapView.swift */,
+				85EB221225F11DF000CEA9BD /* SquadsList.swift */,
+				B3F438B525F2804E0001BB28 /* Tag.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -139,7 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				B3F4388E25F0F9060001BB28 /* AboutView.swift */,
-				B3F4389425F0FC8C0001BB28 /* ClientsView.swift */,
+				B3F4389825F129200001BB28 /* SquadDetail.swift */,
+				B3F438C025F2994B0001BB28 /* ClientView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -187,7 +180,7 @@
 				Base,
 			);
 			mainGroup = 85E7AEAF25F0E092009A98C2;
-			productRefGroup = 85E7AEB925F0E092009A98C2 /* Products */;
+			productRefGroup = 85E7AEAF25F0E092009A98C2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -226,9 +219,10 @@
 				85EB221325F11DF000CEA9BD /* SquadsList.swift in Sources */,
 				85EB220D25F11C6100CEA9BD /* ModelData.swift in Sources */,
 				B3F4389925F129200001BB28 /* SquadDetail.swift in Sources */,
+				B3F438C125F2994B0001BB28 /* ClientView.swift in Sources */,
 				B3F438B625F2804E0001BB28 /* Tag.swift in Sources */,
 				85EB221725F132F300CEA9BD /* CircleImage.swift in Sources */,
-				B3F4389525F0FC8C0001BB28 /* ClientView.swift in Sources */,
+				B3F438BE25F2981C0001BB28 /* Squad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alasdairwest.somerville-hack";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -391,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alasdairwest.somerville-hack";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

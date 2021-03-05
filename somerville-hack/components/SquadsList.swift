@@ -39,3 +39,4 @@ struct SquadsList_Previews: PreviewProvider {
         SquadsList(squads: squadsList)
     }
 }
+

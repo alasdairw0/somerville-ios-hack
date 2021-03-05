@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Lloyds Banking Group",
+        "description": "A description of our partnership with LBG.",
+        "imageName": "lbg",
+        "tech": ["Node.js", "React", "SQL", "Jenkins", "DB2"],
+        "colorRef": "lbg"
+    },
+    {
+        "id": 2,
+        "name": "People's Postcode Lottery",
+        "description": "A description of the work we have undertaken with PPL.",
+        "imageName": "ppl",
+        "tech": ["Node.js", "React"],
+        "colorRef": "ppl"
+    },
+    {
+        "id": 3,
+        "name": "Sky",
+        "description": "A description of the work we can expect to deliver with Sky.",
+        "imageName": "sky",
+        "tech": ["React"],
+        "colorRef": "sky"
+    }
+]
